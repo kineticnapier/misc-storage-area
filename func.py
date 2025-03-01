@@ -56,4 +56,5 @@ def generate_sine_wave(frequency=440, duration=2, sample_rate=44100, filename="s
     print(f"Sine wave of {frequency} Hz saved as {filename}")
 
 if __name__ == "__main__":
-    generate_sine_wave()
+    generate_sine_wave(frequency=440)
+    generate_sine_wave(frequency=880, filename="sine_wave_880Hz.wav")
